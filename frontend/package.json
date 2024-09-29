@@ -10,9 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@solana/web3.js": "^1.95.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.26.2"
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.26.2",
+    "web3": "^4.13.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",

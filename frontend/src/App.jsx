@@ -7,8 +7,13 @@ import DoctorDashboard from './DoctorDaashboard';
 import PatientDashboard from './PatientDashboard';
 import Profile from './Profile';
 import { ReportProvider } from './ReportContext';
+import Modal from "react-modal";
+
+
 
 function App() {
+  // Ensure that your app root is set (commonly '#root' or '#app' depending on your app)
+Modal.setAppElement('#root');
 
   const [web3, setWeb3] = useState(null);
 
